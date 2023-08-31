@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/our-brands/flags/50-crowns_logo.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&family=Orbitron:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Slider-swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Slider-swiper -->
+    <title>50-partners</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_wrapper mycontainer">
+        <nav class="navbar">
+          <a href="index.html" class="logo_wrapper">
+            <img src="img/header/main-logo.png" alt="logo" class="main-logo" />
+          </a>
+
+          <ul class="navbar_menu">
+            <li><p class="nav_elem" href="" onclick="scrollToBrands()">Brands</p></li>
+            <li><p class="nav_elem" href="#" onclick="scrollToAdvantages()">Advantages</p></li>
+            <li><p class="nav_elem" href="#" onclick="scrollToTestimonials()">Testimonials</p></li>
+            <li><p class="nav_elem" href="#" onclick="scrollToContacts()">Contacts</p></li>
+            <li><a class="nav_elem" href="terms-and-conditions.html">Terms and Conditions</a></li>
+            <li><a class="nav_elem" href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+          <div class="header_button_pair">
+            <button class="main_button">Sign in</button>
+            <button class="main_button fill_button">Sign Up</button>
+          </div>
+          <div class="burger">
+            <div class="burger_space" id="burger">
+              <span class="stick"></span>
+              <span class="stick"></span>
+              <span class="stick"></span>
+            </div>
+          </div>
+        </nav>
+        <div class="popup" id="popup">
+          <div class="popup_textblock" id="popupSlide">
+            <ul class="navbar_menu_mobile">
+              <li><p class="nav_elem_mobile" href="" onclick="scrollToBrands()">Brands</p></li>
+              <li>
+                <p class="nav_elem_mobile" href="" onclick="scrollToAdvantages()">Advantages</p>
+              </li>
+              <li>
+                <p class="nav_elem_mobile" href="" onclick="scrollToTestimonials()">Testimonials</p>
+              </li>
+              <li><p class="nav_elem_mobile" href="" onclick="scrollToContacts()">Contacts</p></li>
+              <li>
+                <a class="nav_elem_mobile" href="terms-and-conditions.html">Terms and Conditions</a>
+              </li>
+              <li><a class="nav_elem_mobile" href="privacy-policy.html">Privacy Policy</a></li>
+              <div class="header_button_pair mob_menu_buttons">
+                <button class="main_button mob_menu_button button_background_change">
+                  Sign in
+                </button>
+                <button class="main_button fill_button mob_menu_button">Sign Up</button>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="main_picture">
+      <!-- <img class="main_bg_image" src="img/main/main-crown.png" /> -->
+      <div class="main_picture_wrapper">
+        <img src="img/main/crown.png" alt="crown bg" class="main_picture_mobile-crown" />
+        <img src="img/main/nest-big.png" alt="nest bg" class="main_picture_mobile-big-nest" />
+        <img src="img/main/nest-small.png" alt="nest bg" class="main_picture_mobile-small-nest" />
+        <div class="main_container">
+          <div class="main_picture__content_wrapper">
+            <h1><span class="bold-part">50</span>—partners</h1>
+            <p class="main_picture__content_subtitle">
+              Join our affiliate program and enjoy by numbers we made together running our
+              high-performing brand
+            </p>
+            <button class="main_picture__content_registration_button fill_button">
+              Registration
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our_brands" id="brands">
+      <div class="mycontainer our_brands_container">
+        <h2>OUR BRANDS</h2>
+        <div class="our_brands_content">
+          <div class="our_brands_content_windows">
+            <div class="our_brands_content_windows_printscreen_wrapper">
+              <img
+                src="img/our-brands/game-screen.png"
+                alt="game screen"
+                class="our_brands_content_windows_printscreen"
+              />
+            </div>
+            <div class="our_brands_content_windows_info">
+              <p class="our_brands_content_windows_info__title">Information:</p>
+              <p class="our_brands_content_windows_info__text">
+                A classic casino with more than 4000 games. Easy navigation, unobtrusive design,
+                round-the-clock support for players.
+              </p>
+            </div>
+          </div>
+          <div class="our_brands_content_info">
+            <div class="our_brands_content_info__logo-text">
+              <div class="our_brands_content_info__logo-text_logo_wrapper">
+                <img src="img/our-brands/flags/50-crowns_logo.svg" alt="50-crowns small logo" />
+              </div>
+              <div class="our_brands_content_info__logo-text_title_wrapper">
+                <p class="our_brands_content_info__logo-text_title">50 CROWNS</p>
+                <a
+                  href="https://www.50crowns.com/"
+                  class="our_brands_content_info__logo-text_subtitle"
+                  >50crowns.com</a
+                >
+              </div>
+            </div>
+            <div class="our_brands_content_info__priorities">
+              <div class="our_brands_content_info__priorities_titles">
+                <p class="our_brands_content_info__priorities_title">URL</p>
+                <p class="our_brands_content_info__priorities_title">Year of opening:</p>
+                <p class="our_brands_content_info__priorities_title">License:</p>
+                <p class="our_brands_content_info__priorities_title">Support 24/7:</p>
+                <p class="our_brands_content_info__priorities_title move-down-lang">Language:</p>
+                <p class="our_brands_content_info__priorities_title move-down">Pay and Play:</p>
+              </div>
+              <div class="our_brands_content_info__priorities_parameters">
+                <div class="our_brands_content_info__priorities_parameter">
+                  <a
+                    href="https://50crowns.com/"
+                    class="our_brands_content_info__priorities_parameter-link"
+                    >https://50crowns.com/</a
+                  >
+                </div>
+                <div class="our_brands_content_info__priorities_parameter">2023</div>
+                <div class="our_brands_content_info__priorities_parameter">Curacao</div>
+                <div class="our_brands_content_info__priorities_parameter">
+                  Our assistants are available around the clock
+                </div>
+                <div class="our_brands_content_info__priorities_parameter">
+                  <div class="our_brands_content_info__priorities_parameter_flags_wrapper">
+                    <img src="img/our-brands/flags/australia.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/new-zeland.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/Canada.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/germany.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/Slovenia.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/ISR.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/finland.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/France.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/Belgium.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/Norway.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/Hungary.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/Poland.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/Brazil.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/Latvia.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/Chekh.svg" alt="" class="flag" />
+                    <img src="img/our-brands/flags/India.svg" alt="" class="flag" />
+                  </div>
+                </div>
+                <div class="our_brands_content_info__priorities_parameter">
+                  Available without commission
+                </div>
+              </div>
+            </div>
+            <div class="our_brands_content_info__payments">
+              <p class="our_brands_content_info__payments_title">Payments:</p>
+              <div class="our_brands_content_info__payments_items">
+                <div class="our_brands_content_info__payments_item">
+                  <img src="img/our-brands/payments/visa.png" alt="" class="payment_type visa" />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img
+                    src="img/our-brands/payments/mastercard.png"
+                    alt=""
+                    class="payment_type mastercard"
+                  />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img
+                    src="img/our-brands/payments/bank-transfer.png"
+                    alt=""
+                    class="payment_type bank_transfer"
+                  />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img
+                    src="img/our-brands/payments/skrill.png"
+                    alt=""
+                    class="payment_type skrill"
+                  />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img
+                    src="img/our-brands/payments/neteller.png"
+                    alt=""
+                    class="payment_type neteller"
+                  />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img
+                    src="img/our-brands/payments/paysafecard.png"
+                    alt=""
+                    class="payment_type paysafecard"
+                  />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img
+                    src="img/our-brands/payments/interac.png"
+                    alt=""
+                    class="payment_type interac"
+                  />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img
+                    src="img/our-brands/payments/mifinity.png"
+                    alt=""
+                    class="payment_type mifinity"
+                  />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img
+                    src="img/our-brands/payments/neosurf.png"
+                    alt=""
+                    class="payment_type neosurf"
+                  />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img src="img/our-brands/payments/btc.png" alt="" class="payment_type btc" />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img
+                    src="img/our-brands/payments/etc-blue-arrows.png"
+                    alt=""
+                    class="payment_type etc"
+                  />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img
+                    src="img/our-brands/payments/ltc-big-L.png"
+                    alt=""
+                    class="payment_type ltc"
+                  />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img
+                    src="img/our-brands/payments/xrp-big-X.png"
+                    alt=""
+                    class="payment_type bigx"
+                  />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img src="img/our-brands/payments/big-T.png" alt="" class="payment_type bigt" />
+                </div>
+                <div class="our_brands_content_info__payments_item">
+                  <img
+                    src="img/our-brands/payments/BNB-last-orange.png"
+                    alt=""
+                    class="payment_type bnb"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="benefits" id="advantages">
+      <div class="mycontainer benefints_container">
+        <h2 class="middle_title our_brands_title">OUR BRANDS BENEFITS</h2>
+        <div class="benefits_content">
+          <div class="benefits_content_pair left_pair">
+            <div class="benefits_content_item">
+              <p class="benefits_content_item_title">GENERAL BENEFITS</p>
+              <ul class="benefits_content_item_text-list">
+                <li class="benefits_content_item_text">
+                  We are direct advertisers so our deals are the highest
+                </li>
+                <li class="benefits_content_item_text">
+                  As long as our products are created on the Soft2Bet and Softswiss platforms, they
+                  have excellent conversion rates
+                </li>
+                <li class="benefits_content_item_text">
+                  We have an experienced Retention department, so we are successfully returning old
+                  players and monetize them
+                </li>
+                <li class="benefits_content_item_text">
+                  We have our own support team speaking local languages so the players receive all
+                  the information as quickly as possible in the best way
+                </li>
+                <li class="benefits_content_item_text">Personal Vip-managers</li>
+              </ul>
+            </div>
+            <div class="benefits_content_item">
+              <p class="benefits_content_item_title">CASINO BENEFITS</p>
+              <ul class="benefits_content_item_text-list">
+                <li class="benefits_content_item_text">Top slots for each particular geo</li>
+                <li class="benefits_content_item_text">20 eur minimum deposit</li>
+                <li class="benefits_content_item_text">
+                  Players can withdraw 5/15/30K Euro per Day/Week/Month
+                </li>
+                <li class="benefits_content_item_text">Wagers are not higher than 30</li>
+                <li class="benefits_content_item_text">VIP managers speaking the local language</li>
+                <li class="benefits_content_item_text">No negative balance carryover</li>
+                <li class="benefits_content_item_text">Current welcome bonus</li>
+              </ul>
+            </div>
+          </div>
+          <div class="benefits_content_pair right_pair">
+            <div class="benefits_content_item">
+              <p class="benefits_content_item_title">BETTING BENEFITS</p>
+              <ul class="benefits_content_item_text-list">
+                <li class="benefits_content_item_text">Wide sports line</li>
+                <li class="benefits_content_item_text">Current welcome bonus</li>
+                <li class="benefits_content_item_text">
+                  Creatives are provided for each sport event
+                </li>
+              </ul>
+            </div>
+            <div class="benefits_content_item">
+              <p class="benefits_content_item_title">COUNTRY MANAGER</p>
+              <ul class="benefits_content_item_text-list">
+                <li class="benefits_content_item_text">
+                  Experienced manager who is speaking your language and located in your region will
+                  help monetize your traffic and answer all the questions
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="affiliate">
+      <img
+        src="img/affiliate/left-nest.png"
+        alt="left nest background"
+        class="affiliate-left-nest"
+      />
+      <img
+        src="img/affiliate/right-nest.png"
+        alt="right nest background"
+        class="affiliate-right-nest"
+      />
+      <div class="mycontainer affiliate_container">
+        <h2 class="middle_title affiliate_title">AFFILIATE<br />PROGRAM BENEFITS</h2>
+        <div class="affiliate_content_wrapper">
+          <div class="affiliate_group3">
+            <div class="affiliate_content_item">
+              <div class="affiliate_content_item_icon_wrapper">
+                <img
+                  src="img/affiliate/support.svg"
+                  alt="support icon"
+                  class="affiliate_content_item_icon"
+                />
+              </div>
+              <p class="affiliate_content_item_title">SUPPORT</p>
+              <p class="affiliate_content_item_text">
+                Well-experienced affiliate managers available 24/7 Onboarding speed of 1 affiliate
+                is 2 hours
+              </p>
+            </div>
+            <div class="affiliate_content_item">
+              <div class="affiliate_content_item_icon_wrapper">
+                <img
+                  src="img/affiliate/payouts.svg"
+                  alt="payouts icon"
+                  class="affiliate_content_item_icon"
+                />
+              </div>
+              <p class="affiliate_content_item_title">PAYOUTS</p>
+              <p class="affiliate_content_item_text">
+                Stable withdrawal of funds to popular payment systems, including cryptocurrencies.
+                The larger volumes are delivered, the- more often withdraws are made
+              </p>
+            </div>
+            <div class="affiliate_content_item">
+              <div class="affiliate_content_item_icon_wrapper">
+                <img
+                  src="img/affiliate/banners.svg"
+                  alt="banners icon"
+                  class="affiliate_content_item_icon"
+                />
+              </div>
+              <p class="affiliate_content_item_title">
+                CUSTOMIZED <br />
+                BANNERS
+              </p>
+              <p class="affiliate_content_item_text">
+                Stylish banners that convert are always at your service
+              </p>
+            </div>
+          </div>
+          <div class="affiliate_group2">
+            <div class="affiliate_content_item">
+              <div class="affiliate_content_item_icon_wrapper">
+                <img
+                  src="img/affiliate/money.svg"
+                  alt="money icon"
+                  class="affiliate_content_item_icon"
+                />
+              </div>
+              <p class="affiliate_content_item_title">DEAL TYPES</p>
+              <p class="affiliate_content_item_text">CPA / Revenue Share / Hybrid</p>
+            </div>
+            <div class="affiliate_content_item">
+              <div class="affiliate_content_item_icon_wrapper">
+                <img
+                  src="img/affiliate/graph-arrow.svg"
+                  alt="graph icon"
+                  class="affiliate_content_item_icon"
+                />
+              </div>
+              <p class="affiliate_content_item_title">ANALYTICS</p>
+              <p class="affiliate_content_item_text">
+                Intuitive, convenient and efficient statistics tracking system
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="traffic">
+      <div class="mycontainer">
+        <h2 class="middle_title traffic_title">
+          WE ACCEPT FOLLOWING<br />
+          TRAFFIC
+        </h2>
+        <div class="traffic_content_wrapper">
+          <a href="#" class="traffic_content_item">CASINO SITES</a>
+          <a href="#" class="traffic_content_item">FACEBOOK / TIK-TOK ADS</a>
+          <a href="#" class="traffic_content_item">GOOGLE SEARCH ADS</a>
+          <a href="#" class="traffic_content_item">GOOGLE UAC</a>
+          <a href="#" class="traffic_content_item">ORGANIC FROM APPS</a>
+          <a href="#" class="traffic_content_item">CAPPER'S TRAFFIC</a>
+          <a href="#" class="traffic_content_item">BLOGER'S TRAFFIC</a>
+          <a href="#" class="traffic_content_item">TIK-TOK</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="mycontainer">
+        <h2 class="middle_title testimonials_title">TESTIMONIALS</h2>
+      </div>
+      <div class="testimonials_slider">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonials_slider_logo_wrapper">
+                <img src="img/testimonials/content-logo.png" alt="jungli win logo" />
+              </div>
+              <p class="testimonials_slider_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco lab
+              </p>
+              <a class="testimonials_slider_link" href="http://jungliwin.io/">jungliwin.io</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonials_slider_logo_wrapper">
+                <img
+                  class="testimonials_slider_logo"
+                  src="img/testimonials/content-logo.png"
+                  alt="jungli win logo"
+                />
+              </div>
+              <p class="testimonials_slider_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco lab
+              </p>
+              <a class="testimonials_slider_link" href="http://jungliwin.io/">jungliwin.io</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonials_slider_logo_wrapper">
+                <img src="img/testimonials/content-logo.png" alt="jungli win logo" />
+              </div>
+              <p class="testimonials_slider_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco lab
+              </p>
+              <a class="testimonials_slider_link" href="http://jungliwin.io/">jungliwin.io</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <section class="contacts" id="contacts">
+      <div class="mycontainer contacts_container">
+        <h2 class="middle_title contacts_title">CONTACTS</h2>
+        <div class="contacts_socials_wrapper">
+          <a href="" class="contacts_socials_link">
+            <img
+              src="img/contacts/instagram.png"
+              alt="instagram icon"
+              class="contacts_socials_img"
+            />
+          </a>
+          <a href="" class="contacts_socials_link">
+            <img src="img/contacts/telegram.png" alt="telegram icon" class="contacts_socials_img" />
+          </a>
+          <a href="" class="contacts_socials_link">
+            <img src="img/contacts/linkedin.png" alt="linkedin icon" class="contacts_socials_img" />
+          </a>
+          <a href="" class="contacts_socials_link">
+            <img src="img/contacts/skype.png" alt="skype icon" class="contacts_socials_img" />
+          </a>
+        </div>
+        <div class="contacts_persons_wrapper">
+          <div class="contacts_persons_pair">
+            <div class="contacts_person underline-add">
+              <div class="contacts_person_info">
+                <p class="contacts_person_info_name">Natuzzi</p>
+                <p class="contacts_person_info_position">Affiliate Manager</p>
+              </div>
+              <div class="contacts_person_links">
+                <p id="trythis" class="contact_person_link" data-clipboard-text="mail link">
+                  <svg width="24" height="18" viewBox="0 0 24 18">
+                    <path
+                      d="M3.2748 2H20.7252L14.5487 9H9.45127L3.2748 2ZM2 14.5858V3.5781L8.25016 10.6616L8.54873 11H9H15H15.4513L15.7498 10.6616L22 3.5781V14.5858L18.7071 11.2929L17.2929 12.7071L20.5858 16H3.41421L6.70711 12.7071L5.29289 11.2929L2 14.5858ZM2 0H0V2V16V18H2H22H24V16V2V0H22H2Z"
+                      fill="#8C8E91"
+                    />
+                  </svg>
+                  <span class="copied_hidden">E-mail copied to clipboard!</span>
+                </p>
+                <p
+                  onclick=""
+                  id="trythis"
+                  class="contact_person_link"
+                  data-clipboard-text="Skype link"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.1666 17.2255C16.5069 17.9652 15.6767 18.4389 14.7335 18.7069C12.9649 19.2084 11.1769 19.2257 9.41512 18.7031C7.81221 18.2275 6.62927 17.2485 6.15862 15.6066C5.8244 14.4422 6.58639 13.5728 7.76251 13.7092C8.27116 13.7678 8.60538 14.0714 8.84314 14.4883C8.99222 14.7506 9.11695 15.0264 9.25142 15.2973C9.68796 16.1802 10.3915 16.6798 11.3912 16.7883C12.2097 16.8767 13.001 16.8191 13.7581 16.4809C14.0514 16.3502 14.3106 16.1696 14.522 15.9294C15.0882 15.2848 14.9859 14.3721 14.2911 13.8639C13.6197 13.3729 12.8139 13.2423 12.0295 13.0703C10.907 12.8234 9.7815 12.5899 8.72621 12.1259C7.63584 11.6465 6.74912 10.95 6.46361 9.73366C6.13231 8.32234 6.52987 7.12911 7.67579 6.21353C8.68626 5.40651 9.90233 5.14519 11.1613 5.03758C11.4526 5.01261 11.7479 5.03374 12.0412 5.03374C13.2036 5.003 14.3359 5.15479 15.3854 5.68224C16.1883 6.08671 16.8538 6.63721 17.2407 7.4644C17.4297 7.86887 17.5203 8.3012 17.3985 8.73257C17.2504 9.25618 16.8889 9.62126 16.3403 9.73078C15.7683 9.84511 15.2373 9.75576 14.8767 9.23312C14.7052 8.98429 14.5405 8.72969 14.3856 8.47029C13.8945 7.64598 13.1949 7.18675 12.201 7.19059C11.7469 7.19251 11.2957 7.1781 10.8514 7.28378C10.4529 7.3789 10.0875 7.54318 9.78442 7.81988C9.2446 8.31369 9.26506 8.99293 9.84094 9.44448C10.22 9.74231 10.6692 9.90755 11.133 10.0248C12.2214 10.2986 13.3157 10.5532 14.4032 10.8327C14.9946 10.9855 15.5608 11.2142 16.1094 11.4851C18.6594 12.7456 18.4772 15.7536 17.1666 17.2255Z"
+                      fill="white"
+                      fill-opacity="0.5"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M22.2851 14.5182C22.2198 14.3693 22.1915 14.2319 22.2256 14.0667C22.4731 12.8609 22.4819 11.6514 22.2792 10.4351C21.3847 5.07706 16.2642 1.32058 10.824 2.04593C10.5054 2.08821 10.2413 2.03921 9.95483 1.88837C7.65521 0.677846 4.84305 1.09385 2.97314 2.90387C1.1315 4.687 0.668649 7.47313 1.84867 9.74239C1.97339 9.98161 2.01139 10.1968 1.95585 10.4629C1.84185 11.0067 1.8321 11.5639 1.80579 12.1442C1.82528 12.468 1.83113 12.8187 1.86815 13.1665C2.48399 18.9731 7.87835 23.0467 13.7521 22.1407C13.9324 22.1128 14.0825 22.1426 14.2423 22.2223C15.3521 22.7738 16.5448 22.9083 17.7453 22.72C21.6732 22.1042 23.8607 18.1238 22.2851 14.5182Z"
+                      stroke="white"
+                      stroke-opacity="0.5"
+                      stroke-width="2"
+                    />
+                  </svg>
+                  <span class="copied_hidden">Skype copied to clipboard!</span>
+                </p>
+                <p id="trythis" class="contact_person_link" data-clipboard-text="Telegram link">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.6651 3.71682L2.93509 10.5538C1.72509 11.0398 1.73209 11.7148 2.71309 12.0158L7.26509 13.4358L17.7971 6.79082C18.2951 6.48782 18.7501 6.65082 18.3761 6.98282L9.8431 14.6838H9.84109L9.8431 14.6848L9.5291 19.3768C9.9891 19.3768 10.1921 19.1658 10.4501 18.9168L12.6611 16.7668L17.2601 20.1638C18.1081 20.6308 18.7171 20.3908 18.9281 19.3788L21.9471 5.15082C22.2561 3.91182 21.4741 3.35082 20.6651 3.71682Z"
+                      fill="#8C8E91"
+                    />
+                  </svg>
+                  <span class="copied_hidden">Telegram copied to clipboard!</span>
+                </p>
+              </div>
+            </div>
+            <div class="contacts_person underline-add">
+              <div class="contacts_person_info">
+                <p class="contacts_person_info_name">Svitlana</p>
+                <p class="contacts_person_info_position">Affiliate Manager</p>
+              </div>
+              <div class="contacts_person_links">
+                <p id="trythis" class="contact_person_link" data-clipboard-text="mail link">
+                  <svg width="24" height="18" viewBox="0 0 24 18">
+                    <path
+                      d="M3.2748 2H20.7252L14.5487 9H9.45127L3.2748 2ZM2 14.5858V3.5781L8.25016 10.6616L8.54873 11H9H15H15.4513L15.7498 10.6616L22 3.5781V14.5858L18.7071 11.2929L17.2929 12.7071L20.5858 16H3.41421L6.70711 12.7071L5.29289 11.2929L2 14.5858ZM2 0H0V2V16V18H2H22H24V16V2V0H22H2Z"
+                      fill="#8C8E91"
+                    />
+                  </svg>
+                  <span class="copied_hidden">E-mail copied to clipboard!</span>
+                </p>
+                <p
+                  onclick=""
+                  id="trythis"
+                  class="contact_person_link"
+                  data-clipboard-text="Skype link"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.1666 17.2255C16.5069 17.9652 15.6767 18.4389 14.7335 18.7069C12.9649 19.2084 11.1769 19.2257 9.41512 18.7031C7.81221 18.2275 6.62927 17.2485 6.15862 15.6066C5.8244 14.4422 6.58639 13.5728 7.76251 13.7092C8.27116 13.7678 8.60538 14.0714 8.84314 14.4883C8.99222 14.7506 9.11695 15.0264 9.25142 15.2973C9.68796 16.1802 10.3915 16.6798 11.3912 16.7883C12.2097 16.8767 13.001 16.8191 13.7581 16.4809C14.0514 16.3502 14.3106 16.1696 14.522 15.9294C15.0882 15.2848 14.9859 14.3721 14.2911 13.8639C13.6197 13.3729 12.8139 13.2423 12.0295 13.0703C10.907 12.8234 9.7815 12.5899 8.72621 12.1259C7.63584 11.6465 6.74912 10.95 6.46361 9.73366C6.13231 8.32234 6.52987 7.12911 7.67579 6.21353C8.68626 5.40651 9.90233 5.14519 11.1613 5.03758C11.4526 5.01261 11.7479 5.03374 12.0412 5.03374C13.2036 5.003 14.3359 5.15479 15.3854 5.68224C16.1883 6.08671 16.8538 6.63721 17.2407 7.4644C17.4297 7.86887 17.5203 8.3012 17.3985 8.73257C17.2504 9.25618 16.8889 9.62126 16.3403 9.73078C15.7683 9.84511 15.2373 9.75576 14.8767 9.23312C14.7052 8.98429 14.5405 8.72969 14.3856 8.47029C13.8945 7.64598 13.1949 7.18675 12.201 7.19059C11.7469 7.19251 11.2957 7.1781 10.8514 7.28378C10.4529 7.3789 10.0875 7.54318 9.78442 7.81988C9.2446 8.31369 9.26506 8.99293 9.84094 9.44448C10.22 9.74231 10.6692 9.90755 11.133 10.0248C12.2214 10.2986 13.3157 10.5532 14.4032 10.8327C14.9946 10.9855 15.5608 11.2142 16.1094 11.4851C18.6594 12.7456 18.4772 15.7536 17.1666 17.2255Z"
+                      fill="white"
+                      fill-opacity="0.5"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M22.2851 14.5182C22.2198 14.3693 22.1915 14.2319 22.2256 14.0667C22.4731 12.8609 22.4819 11.6514 22.2792 10.4351C21.3847 5.07706 16.2642 1.32058 10.824 2.04593C10.5054 2.08821 10.2413 2.03921 9.95483 1.88837C7.65521 0.677846 4.84305 1.09385 2.97314 2.90387C1.1315 4.687 0.668649 7.47313 1.84867 9.74239C1.97339 9.98161 2.01139 10.1968 1.95585 10.4629C1.84185 11.0067 1.8321 11.5639 1.80579 12.1442C1.82528 12.468 1.83113 12.8187 1.86815 13.1665C2.48399 18.9731 7.87835 23.0467 13.7521 22.1407C13.9324 22.1128 14.0825 22.1426 14.2423 22.2223C15.3521 22.7738 16.5448 22.9083 17.7453 22.72C21.6732 22.1042 23.8607 18.1238 22.2851 14.5182Z"
+                      stroke="white"
+                      stroke-opacity="0.5"
+                      stroke-width="2"
+                    />
+                  </svg>
+                  <span class="copied_hidden">Skype copied to clipboard!</span>
+                </p>
+                <p id="trythis" class="contact_person_link" data-clipboard-text="Telegram link">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.6651 3.71682L2.93509 10.5538C1.72509 11.0398 1.73209 11.7148 2.71309 12.0158L7.26509 13.4358L17.7971 6.79082C18.2951 6.48782 18.7501 6.65082 18.3761 6.98282L9.8431 14.6838H9.84109L9.8431 14.6848L9.5291 19.3768C9.9891 19.3768 10.1921 19.1658 10.4501 18.9168L12.6611 16.7668L17.2601 20.1638C18.1081 20.6308 18.7171 20.3908 18.9281 19.3788L21.9471 5.15082C22.2561 3.91182 21.4741 3.35082 20.6651 3.71682Z"
+                      fill="#8C8E91"
+                    />
+                  </svg>
+                  <span class="copied_hidden">Telegram copied to clipboard!</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="contacts_persons_pair">
+            <div class="contacts_person">
+              <div class="contacts_person_info">
+                <p class="contacts_person_info_name">Louise</p>
+                <p class="contacts_person_info_position">Affiliate Manager</p>
+              </div>
+              <div class="contacts_person_links">
+                <p id="trythis" class="contact_person_link" data-clipboard-text="mail link">
+                  <svg width="24" height="18" viewBox="0 0 24 18">
+                    <path
+                      d="M3.2748 2H20.7252L14.5487 9H9.45127L3.2748 2ZM2 14.5858V3.5781L8.25016 10.6616L8.54873 11H9H15H15.4513L15.7498 10.6616L22 3.5781V14.5858L18.7071 11.2929L17.2929 12.7071L20.5858 16H3.41421L6.70711 12.7071L5.29289 11.2929L2 14.5858ZM2 0H0V2V16V18H2H22H24V16V2V0H22H2Z"
+                      fill="#8C8E91"
+                    />
+                  </svg>
+                  <span class="copied_hidden">E-mail copied to clipboard!</span>
+                </p>
+                <p
+                  onclick=""
+                  id="trythis"
+                  class="contact_person_link"
+                  data-clipboard-text="Skype link"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.1666 17.2255C16.5069 17.9652 15.6767 18.4389 14.7335 18.7069C12.9649 19.2084 11.1769 19.2257 9.41512 18.7031C7.81221 18.2275 6.62927 17.2485 6.15862 15.6066C5.8244 14.4422 6.58639 13.5728 7.76251 13.7092C8.27116 13.7678 8.60538 14.0714 8.84314 14.4883C8.99222 14.7506 9.11695 15.0264 9.25142 15.2973C9.68796 16.1802 10.3915 16.6798 11.3912 16.7883C12.2097 16.8767 13.001 16.8191 13.7581 16.4809C14.0514 16.3502 14.3106 16.1696 14.522 15.9294C15.0882 15.2848 14.9859 14.3721 14.2911 13.8639C13.6197 13.3729 12.8139 13.2423 12.0295 13.0703C10.907 12.8234 9.7815 12.5899 8.72621 12.1259C7.63584 11.6465 6.74912 10.95 6.46361 9.73366C6.13231 8.32234 6.52987 7.12911 7.67579 6.21353C8.68626 5.40651 9.90233 5.14519 11.1613 5.03758C11.4526 5.01261 11.7479 5.03374 12.0412 5.03374C13.2036 5.003 14.3359 5.15479 15.3854 5.68224C16.1883 6.08671 16.8538 6.63721 17.2407 7.4644C17.4297 7.86887 17.5203 8.3012 17.3985 8.73257C17.2504 9.25618 16.8889 9.62126 16.3403 9.73078C15.7683 9.84511 15.2373 9.75576 14.8767 9.23312C14.7052 8.98429 14.5405 8.72969 14.3856 8.47029C13.8945 7.64598 13.1949 7.18675 12.201 7.19059C11.7469 7.19251 11.2957 7.1781 10.8514 7.28378C10.4529 7.3789 10.0875 7.54318 9.78442 7.81988C9.2446 8.31369 9.26506 8.99293 9.84094 9.44448C10.22 9.74231 10.6692 9.90755 11.133 10.0248C12.2214 10.2986 13.3157 10.5532 14.4032 10.8327C14.9946 10.9855 15.5608 11.2142 16.1094 11.4851C18.6594 12.7456 18.4772 15.7536 17.1666 17.2255Z"
+                      fill="white"
+                      fill-opacity="0.5"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M22.2851 14.5182C22.2198 14.3693 22.1915 14.2319 22.2256 14.0667C22.4731 12.8609 22.4819 11.6514 22.2792 10.4351C21.3847 5.07706 16.2642 1.32058 10.824 2.04593C10.5054 2.08821 10.2413 2.03921 9.95483 1.88837C7.65521 0.677846 4.84305 1.09385 2.97314 2.90387C1.1315 4.687 0.668649 7.47313 1.84867 9.74239C1.97339 9.98161 2.01139 10.1968 1.95585 10.4629C1.84185 11.0067 1.8321 11.5639 1.80579 12.1442C1.82528 12.468 1.83113 12.8187 1.86815 13.1665C2.48399 18.9731 7.87835 23.0467 13.7521 22.1407C13.9324 22.1128 14.0825 22.1426 14.2423 22.2223C15.3521 22.7738 16.5448 22.9083 17.7453 22.72C21.6732 22.1042 23.8607 18.1238 22.2851 14.5182Z"
+                      stroke="white"
+                      stroke-opacity="0.5"
+                      stroke-width="2"
+                    />
+                  </svg>
+                  <span class="copied_hidden">Skype copied to clipboard!</span>
+                </p>
+                <p id="trythis" class="contact_person_link" data-clipboard-text="Telegram link">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.6651 3.71682L2.93509 10.5538C1.72509 11.0398 1.73209 11.7148 2.71309 12.0158L7.26509 13.4358L17.7971 6.79082C18.2951 6.48782 18.7501 6.65082 18.3761 6.98282L9.8431 14.6838H9.84109L9.8431 14.6848L9.5291 19.3768C9.9891 19.3768 10.1921 19.1658 10.4501 18.9168L12.6611 16.7668L17.2601 20.1638C18.1081 20.6308 18.7171 20.3908 18.9281 19.3788L21.9471 5.15082C22.2561 3.91182 21.4741 3.35082 20.6651 3.71682Z"
+                      fill="#8C8E91"
+                    />
+                  </svg>
+                  <span class="copied_hidden">Telegram copied to clipboard!</span>
+                </p>
+              </div>
+            </div>
+            <div class="contacts_person">
+              <div class="contacts_person_info">
+                <p class="contacts_person_info_name">Bohdan</p>
+                <p class="contacts_person_info_position">Affiliate Manager</p>
+              </div>
+              <div class="contacts_person_links">
+                <p id="trythis" class="contact_person_link" data-clipboard-text="mail link">
+                  <svg width="24" height="18" viewBox="0 0 24 18">
+                    <path
+                      d="M3.2748 2H20.7252L14.5487 9H9.45127L3.2748 2ZM2 14.5858V3.5781L8.25016 10.6616L8.54873 11H9H15H15.4513L15.7498 10.6616L22 3.5781V14.5858L18.7071 11.2929L17.2929 12.7071L20.5858 16H3.41421L6.70711 12.7071L5.29289 11.2929L2 14.5858ZM2 0H0V2V16V18H2H22H24V16V2V0H22H2Z"
+                      fill="#8C8E91"
+                    />
+                  </svg>
+                  <span class="copied_hidden">E-mail copied to clipboard!</span>
+                </p>
+                <p
+                  onclick=""
+                  id="trythis"
+                  class="contact_person_link"
+                  data-clipboard-text="Skype link"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.1666 17.2255C16.5069 17.9652 15.6767 18.4389 14.7335 18.7069C12.9649 19.2084 11.1769 19.2257 9.41512 18.7031C7.81221 18.2275 6.62927 17.2485 6.15862 15.6066C5.8244 14.4422 6.58639 13.5728 7.76251 13.7092C8.27116 13.7678 8.60538 14.0714 8.84314 14.4883C8.99222 14.7506 9.11695 15.0264 9.25142 15.2973C9.68796 16.1802 10.3915 16.6798 11.3912 16.7883C12.2097 16.8767 13.001 16.8191 13.7581 16.4809C14.0514 16.3502 14.3106 16.1696 14.522 15.9294C15.0882 15.2848 14.9859 14.3721 14.2911 13.8639C13.6197 13.3729 12.8139 13.2423 12.0295 13.0703C10.907 12.8234 9.7815 12.5899 8.72621 12.1259C7.63584 11.6465 6.74912 10.95 6.46361 9.73366C6.13231 8.32234 6.52987 7.12911 7.67579 6.21353C8.68626 5.40651 9.90233 5.14519 11.1613 5.03758C11.4526 5.01261 11.7479 5.03374 12.0412 5.03374C13.2036 5.003 14.3359 5.15479 15.3854 5.68224C16.1883 6.08671 16.8538 6.63721 17.2407 7.4644C17.4297 7.86887 17.5203 8.3012 17.3985 8.73257C17.2504 9.25618 16.8889 9.62126 16.3403 9.73078C15.7683 9.84511 15.2373 9.75576 14.8767 9.23312C14.7052 8.98429 14.5405 8.72969 14.3856 8.47029C13.8945 7.64598 13.1949 7.18675 12.201 7.19059C11.7469 7.19251 11.2957 7.1781 10.8514 7.28378C10.4529 7.3789 10.0875 7.54318 9.78442 7.81988C9.2446 8.31369 9.26506 8.99293 9.84094 9.44448C10.22 9.74231 10.6692 9.90755 11.133 10.0248C12.2214 10.2986 13.3157 10.5532 14.4032 10.8327C14.9946 10.9855 15.5608 11.2142 16.1094 11.4851C18.6594 12.7456 18.4772 15.7536 17.1666 17.2255Z"
+                      fill="white"
+                      fill-opacity="0.5"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M22.2851 14.5182C22.2198 14.3693 22.1915 14.2319 22.2256 14.0667C22.4731 12.8609 22.4819 11.6514 22.2792 10.4351C21.3847 5.07706 16.2642 1.32058 10.824 2.04593C10.5054 2.08821 10.2413 2.03921 9.95483 1.88837C7.65521 0.677846 4.84305 1.09385 2.97314 2.90387C1.1315 4.687 0.668649 7.47313 1.84867 9.74239C1.97339 9.98161 2.01139 10.1968 1.95585 10.4629C1.84185 11.0067 1.8321 11.5639 1.80579 12.1442C1.82528 12.468 1.83113 12.8187 1.86815 13.1665C2.48399 18.9731 7.87835 23.0467 13.7521 22.1407C13.9324 22.1128 14.0825 22.1426 14.2423 22.2223C15.3521 22.7738 16.5448 22.9083 17.7453 22.72C21.6732 22.1042 23.8607 18.1238 22.2851 14.5182Z"
+                      stroke="white"
+                      stroke-opacity="0.5"
+                      stroke-width="2"
+                    />
+                  </svg>
+                  <span class="copied_hidden">Skype copied to clipboard!</span>
+                </p>
+                <p id="trythis" class="contact_person_link" data-clipboard-text="Telegram link">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.6651 3.71682L2.93509 10.5538C1.72509 11.0398 1.73209 11.7148 2.71309 12.0158L7.26509 13.4358L17.7971 6.79082C18.2951 6.48782 18.7501 6.65082 18.3761 6.98282L9.8431 14.6838H9.84109L9.8431 14.6848L9.5291 19.3768C9.9891 19.3768 10.1921 19.1658 10.4501 18.9168L12.6611 16.7668L17.2601 20.1638C18.1081 20.6308 18.7171 20.3908 18.9281 19.3788L21.9471 5.15082C22.2561 3.91182 21.4741 3.35082 20.6651 3.71682Z"
+                      fill="#8C8E91"
+                    />
+                  </svg>
+                  <span class="copied_hidden">Telegram copied to clipboard!</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="mycontainer footer_container">
+        <div class="logo_copy">
+          <img src="img/header/main-logo.png" alt="footer logo" class="footer_logo" />
+          <p class="footer_copyright">© 50 Partners, 2023</p>
+        </div>
+        <button class="footer_button main_button">Become our partner</button>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+      });
+    </script>
+    <!-- Initialize Swiper -->
+  </body>
+</html>
