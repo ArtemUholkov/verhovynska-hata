@@ -27,17 +27,17 @@ header {
   width: 30px;
   height: 3px;
   margin: 6px auto;
-  background-color: white;
+  background-color: black;
   transition: 0.2s;
 }
 
 .logo_wrapper {
   cursor: pointer;
+  height: 100%;
 }
 .main-logo {
   width: 100%;
-  max-height: 30px;
-  max-width: 168px;
+  max-height: 64px;
 }
 .burger {
   display: none;
@@ -50,6 +50,31 @@ header {
 .noscroll {
   overflow: hidden;
 }
+.phone_call {
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+  color: green;
+  border: 1px solid green;
+  border-radius: 25px;
+  transition: all 0.5s;
+}
+.phone_call:hover {
+  background: rgb(232, 232, 232);
+  transition: all 0.5s;
+}
+.phone_call_mob_number {
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+  color: green;
+  border: 1px solid green;
+  border-radius: 25px;
+  transition: all 0.5s;
+}
+.phone_call_mob {
+  margin-top: 40px;
+}
 
 .navbar_menu {
   display: flex;
@@ -60,6 +85,7 @@ header {
 }
 
 .nav_elem {
+  color: black;
   position: relative;
   text-decoration: none;
   font-size: 14px;
@@ -123,7 +149,7 @@ header {
   color: black;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 800px) {
   .navbar_menu {
     display: none;
   }
@@ -149,7 +175,6 @@ header {
   }
 
   .logo_wrapper {
-    padding: 10px 10px;
   }
 
   .popup {
@@ -187,7 +212,7 @@ header {
   .popup_textblock {
     position: absolute;
     left: 100%;
-    width: 100%;
+    width: 80%;
     background-color: var(--sub-bg-color);
     align-items: center;
     overflow: auto;
@@ -337,6 +362,9 @@ header {
   }
   .mob_menu_buttons {
     display: flex;
+  }
+  .phone_call {
+    display: none;
   }
 }
 @media (max-height: 620px) {

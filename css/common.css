@@ -120,10 +120,10 @@ table {
 
 /*COLOR VARIABLES START*/
 :root {
-  --main-bg-color: #21482e;
-  --sub-bg-color: #232426;
+  --main-bg-color: #ffffff;
+  --sub-bg-color: #ffffff;
   --usual-decorations: #eead44;
-  --main-text-color: #ffffff;
+  --main-text-color: black;
 }
 /*COLOR VARIABLES END*/
 
