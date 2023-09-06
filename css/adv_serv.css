@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  gap: 20px;
+  gap: 13px;
 }
 .title_subtext {
   font-size: 24px;
@@ -23,8 +23,12 @@
   margin-bottom: 20px;
 }
 .adv {
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
 .adv_services_services {
   display: flex;
@@ -32,9 +36,38 @@
   align-items: center;
   justify-content: flex-start;
   height: 100%;
-  gap: 20px;
+  gap: 13px;
 }
 .serv {
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.fa-solid {
+  font-size: 26px;
+  color: green;
+}
+@media (max-width: 580px) {
+  .adv_services_wrapper {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .serv {
+    font-size: 16px;
+    padding: 7px;
+  }
+
+  .adv {
+    font-size: 16px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
 }

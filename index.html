@@ -8,6 +8,7 @@
     <!-- Slider-swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- Slider-swiper -->
+    <script src="https://kit.fontawesome.com/fbceaed2ac.js" crossorigin="anonymous"></script>
     <title>Верховинська Хата</title>
     <link rel="stylesheet" href="css/index.css" />
   </head>
@@ -78,19 +79,40 @@
       <div class="adv_services_wrapper">
         <div class="adv_services_advantages">
           <p class="title_subtext">Переваги</p>
-          <p class="adv">Зручне розташування</p>
-          <p class="adv">Безкоштовний Wi-Fi</p>
-          <p class="adv">Зручна парковка</p>
-          <p class="adv">Дружній власник</p>
-          <p class="adv">Гнучкість у розміщенні</p>
+          <p class="adv"><i class="fa-solid fa-location-dot"></i> Зручне розташування</p>
+          <p class="adv"><i class="fa-solid fa-wifi"></i> Безкоштовний Wi-Fi</p>
+          <p class="adv"><i class="fa-solid fa-square-parking"></i> Зручна парковка</p>
+          <p class="adv"><i class="fa-solid fa-user-group"></i> Дружній власник</p>
+          <p class="adv"><i class="fa-solid fa-house-user"></i> Гнучкість у розміщенні</p>
         </div>
         <div class="adv_services_services">
           <p class="title_subtext">Додаткові послуги</p>
-          <p class="serv">Сніданки</p>
-          <p class="serv">Оренда велосипедів</p>
-          <p class="serv">Трансфер</p>
-          <p class="serv">Екскурсії</p>
+          <p class="serv"><i class="fa-solid fa-utensils"></i> Сніданки</p>
+          <p class="serv"><i class="fa-solid fa-bicycle"></i> Оренда велосипедів</p>
+          <p class="serv"><i class="fa-solid fa-car"></i> Трансфер</p>
+          <p class="serv"><i class="fa-solid fa-suitcase-rolling"></i> Екскурсії</p>
         </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/galary/1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
     <footer>
@@ -110,13 +132,15 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper('.mySwiper', {
+        spaceBetween: 30,
+        effect: 'fade',
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
-        loop: true,
-        autoplay: {
-          delay: 3000,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
         },
       });
     </script>
