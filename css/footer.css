@@ -10,11 +10,11 @@ footer {
 .logo_copy {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 12px;
 }
 .footer_logo {
-  width: 168px;
-  height: 30px;
+  height: 84px;
 }
 .footer_copyright {
   font-weight: 500;
@@ -52,7 +52,7 @@ footer {
   .footer_container {
     flex-direction: column-reverse;
     gap: 32px;
-    align-items: flex-start;
+    align-items: center;
   }
   .footer_button {
     max-width: 100%;

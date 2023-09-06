@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="img/our-brands/flags/50-crowns_logo.svg" type="image/x-icon" />
+    <link rel="icon" href="img/logo/mtn.svg" type="image/x-icon" />
     <!-- Slider-swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- Slider-swiper -->
@@ -21,10 +21,10 @@
           </a>
           <a href="tel:+380955521215" class="phone_call">Зателефонувати</a>
           <ul class="navbar_menu">
-            <li><p class="nav_elem" href="" onclick="scrollToBrands()">Головна</p></li>
-            <li><p class="nav_elem" href="#" onclick="scrollToTestimonials()">Послуги</p></li>
-            <li><p class="nav_elem" href="#" onclick="scrollToContacts()">Галерея</p></li>
-            <li><a class="nav_elem" href="#">Контакти</a></li>
+            <li><a class="nav_elem" href="#">Головна</a></li>
+            <li><a class="nav_elem" href="#services">Послуги</a></li>
+            <li><a class="nav_elem" href="#gallery">Галерея</a></li>
+            <li><a class="nav_elem" href="#contacts">Контакти</a></li>
           </ul>
 
           <div class="burger">
@@ -38,14 +38,14 @@
         <div class="popup" id="popup">
           <div class="popup_textblock" id="popupSlide">
             <ul class="navbar_menu_mobile">
-              <li><p class="nav_elem_mobile" href="" onclick="scrollToBrands()">Головна</p></li>
+              <li><a class="nav_elem_mobile" href="#">Головна</a></li>
               <li>
-                <p class="nav_elem_mobile" href="" onclick="scrollToAdvantages()">Послуги</p>
+                <a class="nav_elem_mobile" href="#services">Послуги</a>
               </li>
               <li>
-                <p class="nav_elem_mobile" href="" onclick="scrollToTestimonials()">Галерея</p>
+                <a class="nav_elem_mobile" href="#gallery">Галерея</a>
               </li>
-              <li><p class="nav_elem_mobile" href="" onclick="scrollToContacts()">Контакти</p></li>
+              <li><a class="nav_elem_mobile" href="#contacts">Контакти</a></li>
               <li class="phone_call_mob">
                 <a href="tel:+380955521215" class="phone_call_mob_number">Зателефонувати</a>
               </li>
@@ -75,7 +75,7 @@
         </div>
       </div>
     </section>
-    <section class="adv_services">
+    <section class="adv_services" id="services">
       <div class="adv_services_wrapper">
         <div class="adv_services_advantages">
           <p class="title_subtext">Переваги</p>
@@ -94,7 +94,7 @@
         </div>
       </div>
     </section>
-    <section class="gallery">
+    <section class="gallery" id="gallery">
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -115,13 +115,36 @@
         <div class="swiper-pagination"></div>
       </div>
     </section>
+    <section class="contacts" id="contacts">
+      <div class="contacts_wrapper">
+        <div class="contacts_map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3133.8831986720284!2d23.35221213181103!3d48.662056905918114!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4739eb0d34285555%3A0xcd5cf418169a00b6!2z0JLQtdGA0YXQvtCy0LjQvdGB0YzQutCwINGF0LDRgtCw!5e0!3m2!1suk!2sua!4v1694001993045!5m2!1suk!2sua"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="contacts_text">
+          <img src="img/logo/logo-removebg-preview.png" alt="logo" />
+          <p class="contacts_adress">Ізки, Закарпатська область</p>
+          <a href="tel:+380955521215" class="contacts_phone">+380955521215</a>
+          <p class="contacts_call_us">
+            <a href="tel:+380955521215" class="phone_call_mob_number">Зателефонувати</a>
+          </p>
+        </div>
+      </div>
+    </section>
     <footer>
       <div class="mycontainer footer_container">
         <div class="logo_copy">
-          <img src="img/header/main-logo.png" alt="footer logo" class="footer_logo" />
-          <p class="footer_copyright">© 50 Partners, 2023</p>
+          <img src="img/logo/logo-removebg-preview.png" alt="footer logo" class="footer_logo" />
+          <p class="footer_copyright">© Verkhovynska Khata, 2023</p>
         </div>
-        <button class="footer_button main_button">Become our partner</button>
+        <a href="tel:+380955521215" class="phone_call_mob_number">Зателефонувати</a>
       </div>
     </footer>
 

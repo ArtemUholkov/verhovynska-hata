@@ -148,6 +148,10 @@ header {
   border-color: rgb(177, 130, 43);
   color: black;
 }
+.phone_call_mob_number:hover {
+  background-color: lightgray;
+  transition: all 0.5s;
+}
 
 @media (max-width: 800px) {
   .navbar_menu {
