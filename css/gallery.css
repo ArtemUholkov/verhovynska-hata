@@ -5,18 +5,15 @@
 .swiper {
   width: 100%;
   height: 100%;
-  max-height: 700px;
 }
 
 .swiper-slide {
   background-position: center;
   background-size: cover;
+  background-color: #ffece4;
 }
 
 .swiper-slide img {
-  display: block;
-  width: 100%;
-  object-fit: fill;
 }
 .swiper-button-next,
 .swiper-button-prev {
@@ -25,4 +22,27 @@
 .swiper-pagination-bullet-active {
   color: green;
   background: green;
+}
+.galary_img {
+  display: block;
+  max-height: 700px;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: green;
+}
+@media (max-width: 1000px) {
+  .galary_img {
+    display: block;
+    max-height: 500px;
+  }
+}
+@media (max-width: 800px) {
+  .galary_img {
+    display: block;
+    max-height: 300px;
+  }
 }
