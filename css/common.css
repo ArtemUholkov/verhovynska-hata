@@ -133,10 +133,10 @@ html {
 }
 body {
   position: relative;
-
   width: 100%;
   margin: 0 auto;
   z-index: 2;
+  background-color: #ffece4;
 }
 h1 {
   font-family: 'Orbitron', sans-serif;
